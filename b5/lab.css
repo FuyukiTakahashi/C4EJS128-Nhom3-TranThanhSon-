@@ -1,0 +1,142 @@
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    border: 1px blue solid;
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    overflow: hidden;
+}
+
+  
+  ul {
+    position: relative;
+    width: 90%;
+    display: inline-block;
+    list-style-type: none;
+    line-height: 100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 2%;
+    width: 10%;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  li:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    transform: scale(1.5);
+    color: #DBE9EE;
+    transition: all ease 0.25;
+  }
+
+  
+  h1 {
+    color: #466995;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: #333;
+    font-family: "Varela Round", sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto 20px auto;
+  }
+  
+  h3 {
+    color: #466995;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+  }
+  
+  h4 {
+    color: #466995;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p {
+    color: #333;
+    font-family: "Varela Round", sans-serif;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #DBE9EE;
+    text-align: center;
+  }
+  
+  .welcome {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    margin-top: 35px;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .question {
+    text-align: center;
+  }
+  
+  .answer {
+    display: inline-block;
+    border: 1px solid #466995;
+    margin: 20px;
+  }
+  
+  .answer:hover {
+    background: #C0D6DF;
+    color: #FFF;
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+ .footer{
+     position: fixed;
+     bottom: 0;
+     right: 0;
+    width: 100%;
+    height: 80px;
+    background: blue;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+ } 
+ .footer:hover {
+     cursor: pointer;
+     transform: scale(1.2);
+ }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="item">
+        0.Hello B5
+        1.Reset css
+        inline va block
+        display box sizing
+        
+    </div> -->
+    <!-- DISPLAY: -->
+    <div class="item" >div không dùng được margin</div>
+    <!-- Thẻ div INLINE -->
+    <span class="item2">Item 2 </span>
+    <!-- Thẻ span BLOCK -->
+    <span class="bg-eror">213213123213</span>
+    <!-- 
+    OPACITY: ẨN, VẪN CHỌN, VẪN CHIẾM
+    INVI   : ẩN, KO CHỌN, VẪN CHIẾM
+    DIS-NON: ẪN, K0 CHỌN, K0 CHIẾM -->  
+    
+    <!-- POSITION:
+    relative:với chính nó
+    absolute : với relative gần nhất
+    fixed: với màn hình của bạn(Làm tag nút về home hoặc trang chủ tĩnh) -->
+
+    <!-- FLEX BOX: -->
+    <div  class="top-bar">
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="menuitem">menu 1</div>
+        <div class="menuitem">menu 2</div>
+        <div class="menuitem">menu 3</div>
+        <div class="menuitem">menu 4</div>
+        <div class="menuitem">menu 5</div>
+    </div>
+
+</body>
+</html>

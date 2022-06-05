@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:ital,wght@1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+  }
+ .container h1{
+    background: skyblue;
+    color: white;
+    padding: 15px 0 15px 60px;
+} 
+ .container h2{
+    padding: 15px 0 15px 60px;
+ }
+ .card-row{
+     margin: 0 60px;
+     width: 1010px;
+ }
+ .card{
+     border: 1px solid black;
+     border-radius: 15px;
+     margin: 20px 0px;
+     box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+     padding: 20px;
+     background-color: skyblue;
+     color: white;
+     line-height: 25px;
+ }
+.card img{
+    width: 970px;
+    border-radius: 12px;
+}
+.card h3{
+    font-style: bold;
+    color: purple;
+    font-size: 1.30em;
+    line-height: 35px;
+}
+.card em{
+    background-color: gray;
+    font-style: italic;
+    font-size: 1.0em;
+    color: wheat;
+}
+.button{
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    margin-top: 40px ;
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 60px;
+}
+
